@@ -1,12 +1,18 @@
 import React from 'react';
 import './App.css';
-import { Minavbar } from './layouts/NavbarAndFooter/MiNavbar';
-// import { Navbar } from './layouts/NavbarAndFooter/Navbar';
+import { Navbar } from './layouts/NavbarAndFooter/Navbar';
+import { ExploreTopBooks } from './layouts/HomePage/ExploreTopBooks';
+import { Carousel } from './layouts/HomePage/Carousel';
 
 function App() {
   return (
-    // <Navbar/>
-    <Minavbar/>
+    <div>
+      <Navbar/>
+      <ExploreTopBooks/>
+      <Carousel/>
+    </div>
+    
+
   );
 }
 
